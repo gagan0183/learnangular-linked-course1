@@ -23,7 +23,12 @@ System.register(['@angular/core'], function(exports_1, context_1) {
             AppComponent = __decorate([
                 core_1.Component({
                     selector: 'app',
-                    template: '<h1>App</h1>'
+                    template: `
+        <div class="card-search">
+            <h1 class="search-headline">Artist directory</h1>
+            <label class="search-label">search</label>
+        </div>
+    `
                 }), 
                 __metadata('design:paramtypes', [])
             ], AppComponent);
